@@ -3,11 +3,10 @@ package models;
 public class Arvore {
     public No raiz;
 
-    Arvore(){
+    public Arvore(){
         raiz = null;
     }
-
-    void  inserir(No atual, int valor){
+    public void  inserir(int valor){
         raiz=inserirRec(raiz, valor);
     }
 
